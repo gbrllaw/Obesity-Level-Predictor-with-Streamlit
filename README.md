@@ -81,19 +81,13 @@ cd obesity-predictor
 pip install -r requirements.txt
 ```
 
-
 ## 💻 Usage
-Using the Web Interface
 
-Open http://localhost:8501
- in your browser
-
-Fill in your health and lifestyle information
-
-Click Predict to get your obesity level classification
-
-View results and recommendations
-
+### Using the Web Interface
+- Open [http://localhost:8501](http://localhost:8501) in your browser
+- Fill in your health and lifestyle information
+- Click **Predict** to get your obesity level classification
+- View results and recommendations
 
 ## 🛠️ Tech Stack
 
