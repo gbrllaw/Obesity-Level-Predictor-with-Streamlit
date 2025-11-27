@@ -19,7 +19,6 @@ A machine learning project that classifies individuals into obesity categories b
 
 ---
 ## 📁 Project Structure
-## 📁 Project Structure
 
 - 📂 app/
   - app.py – Entry point / legacy script
