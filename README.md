@@ -56,6 +56,7 @@ A machine learning project that classifies individuals into obesity categories b
 ---
 ## 📈 Model Performance
 
+**Best Model: XGBoost**  
 | Metric    | Score    |
 |-----------|---------|
 | Accuracy  | 96.21%  |
@@ -63,6 +64,11 @@ A machine learning project that classifies individuals into obesity categories b
 | Recall    | 96%     |
 | F1-Score  | 96.08%  |
 
+**Why XGBoost:**  
+- Higher accuracy and F1-Macro than Random Forest  
+- Consistent performance across all classes, including difficult ones  
+- Excellent prediction for `Overweight_Level` and `Obesity_Type` classes  
+- Overall, better suited for complex patterns in the data
 ---
 
 ## 🚀 Quick Start
