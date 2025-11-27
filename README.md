@@ -1,11 +1,11 @@
 # 🏥 Obesity-Level-Predictor-with-Streamlit
 
 > Predict obesity levels using XGBoost with a Streamlit frontend and FastAPI backend.
-
-A machine learning project that classifies individuals into obesity categories based on lifestyle and health factors.
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-latest-red.svg)](https://streamlit.io/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-latest-green.svg)](https://fastapi.tiangolo.com/)
+
+A machine learning project that classifies individuals into obesity categories based on lifestyle and health factors.
 
 ---
 
@@ -18,6 +18,23 @@ A machine learning project that classifies individuals into obesity categories b
 - Easy integration and local processing (data privacy)
 
 ---
+## 📁 Project Structure
+├── 📂 app/
+│ ├── app.py # Entry point / legacy script
+│ ├── backend.py # FastAPI backend server
+│ ├── frontend.py # Streamlit frontend
+│ └── main.py # Main application script
+│
+├── 📂 data/
+│ └── Obesity Dataset.csv # Training dataset
+│
+├── 📂 models/
+│ ├── best_xgb_model.pkl # Trained XGBoost model
+│ ├── model_feature_info.pkl # Feature info
+│ └── target_encoder.pkl # Target encoder
+│
+├── 📓 pipeline_preprocess.ipynb # Notebook: EDA, preprocessing, training
+├── 📦 requirements.txt # Dependencies
 
 ## 📊 Dataset
 
@@ -43,6 +60,36 @@ A machine learning project that classifies individuals into obesity categories b
 | Precision | 96%     |
 | Recall    | 96%     |
 | F1-Score  | 96.08%  |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+  
+- pip
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/gbrllaw/Obesity-Level-Predictor-with-Streamlut.git
+cd obesity-predictor
+
+# Install dependencies
+pip install -r requirements.txt
+'''
+
+## 💻 Usage
+Using the Web Interface
+
+Open http://localhost:8501
+ in your browser
+
+Fill in your health and lifestyle information
+
+Click Predict to get your obesity level classification
+
+View results and recommendations
 
 
 ## 🛠️ Tech Stack
