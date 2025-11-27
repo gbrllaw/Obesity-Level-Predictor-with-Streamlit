@@ -1,5 +1,4 @@
-# Obesity-Level-Predictor-with-Streamlit
-# 🏥 Obesity Level Predictor
+# 🏥 Obesity-Level-Predictor-with-Streamlit
 
 > Predict obesity levels using XGBoost with a Streamlit frontend and FastAPI backend.
 
