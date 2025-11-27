@@ -19,22 +19,25 @@ A machine learning project that classifies individuals into obesity categories b
 
 ---
 ## 📁 Project Structure
-├── 📂 app/
-│ ├── app.py # Entry point / legacy script
-│ ├── backend.py # FastAPI backend server
-│ ├── frontend.py # Streamlit frontend
-│ └── main.py # Main application script
-│
-├── 📂 data/
-│ └── Obesity Dataset.csv # Training dataset
-│
-├── 📂 models/
-│ ├── best_xgb_model.pkl # Trained XGBoost model
-│ ├── model_feature_info.pkl # Feature info
-│ └── target_encoder.pkl # Target encoder
-│
-├── 📓 pipeline_preprocess.ipynb # Notebook: EDA, preprocessing, training
-├── 📦 requirements.txt # Dependencies
+## 📁 Project Structure
+
+- 📂 app/
+  - app.py – Entry point / legacy script
+  - backend.py – FastAPI backend server
+  - frontend.py – Streamlit frontend
+  - main.py – Main application script
+
+- 📂 data/
+  - Obesity Dataset.csv – Training dataset
+
+- 📂 models/
+  - best_xgb_model.pkl – Trained XGBoost model
+  - model_feature_info.pkl – Feature info
+  - target_encoder.pkl – Target encoder
+
+- pipeline_preprocess.ipynb – Notebook: EDA, preprocessing, training
+- requirements.txt – Dependencies
+
 
 ## 📊 Dataset
 
@@ -77,7 +80,8 @@ cd obesity-predictor
 
 # Install dependencies
 pip install -r requirements.txt
-'''
+```
+
 
 ## 💻 Usage
 Using the Web Interface
